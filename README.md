@@ -1,2 +1,3 @@
-# greenfield-web
-Greenfield sample for Canon: web front-end, TypeScript. Starts with no code.
+# demo-new-web
+
+Demo new project for Canon: web front-end, TypeScript. Starts with no code.
