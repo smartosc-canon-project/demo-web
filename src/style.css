@@ -1,0 +1,79 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #1c1c1c;
+  background: #f6f6f4;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 16px;
+}
+
+main {
+  display: grid;
+  gap: 24px;
+}
+
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+}
+
+label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.875rem;
+}
+
+input,
+button {
+  font: inherit;
+  padding: 6px 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 4px 12px 4px 0;
+}
+
+.error {
+  color: #b3261e;
+}
+
+.status.paid {
+  color: #1b7f3b;
+}
+
+.status.cancelled,
+.status.expired {
+  color: #b3261e;
+}
